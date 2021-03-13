@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.headerBtn{
+    outline: none;
+    border: none;
+    background: #292f33;
+    padding: 6px 10px;
+    color: #acadae;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background: #292f33;
+    color: #acadae;
+}
+.content *{
+    font-family: 'Akademische schmalfette';
+    color: #acadae;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.controls *{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.content button{
+    outline: none;
+    border: none;
+    background: #131618;
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+.content button:hover{
+    background: #25292c;
+}
+#calc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#calc *{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.content input{
+    outline: none;
+    border: none;
+    background: #131618;
+    width: 100px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.numberColumn{
+    display: flex;
+    flex-direction: column;
+}
+#firstNumber{
+    display: flex;
+    flex-direction: row;
+}
+#secondNumber{
+    display: flex;
+    flex-direction: row;
+}
+/*
+#sign{
+    width: 100px;
+    outline: none;
+    border: none;
+    background: #131618;
+    color: #5896d3;
+    padding: 2px 5px;
+    border-radius: 5px;
+}*/
+#answer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.over{
+    position: absolute;
+    background-color: #acadae;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    top: 50px;
+    left: 50px;
+    width: 220px;
+    height: 450px;
+    opacity: 0.6;
+}
+.over button{
+    outline: none;
+    border: none;
+    background: #131618;
+    border-radius: 0;
+    padding: 1px 2px;
+}
+.hide {
+    display: none!important;
+}
